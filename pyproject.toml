@@ -1,0 +1,20 @@
+[project]
+name = "customer-purchase-mlops"
+version = "0.1.0"
+description = "Mlops project"
+authors = [
+    {name = "johny02",email = "phanqu6ctoan@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.4"
+pre-commit = "^4.2.0"
