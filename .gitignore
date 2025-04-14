@@ -1,3 +1,4 @@
+data/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -119,7 +120,6 @@ poetry.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
-
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
