@@ -1,0 +1,12 @@
+services:
+  streaming:
+    container_name: streaming
+    build:
+      context: src/streaming
+      dockerfile: Dockerfile
+    networks:
+      - mymlops_network
+
+networks:
+  mymlops_network:
+    external: True
