@@ -1,5 +1,6 @@
 data/
 diff.txt
+commit-msg.txt
 src/streaming/connectors/config/jars/*.jar
 # Byte-compiled / optimized / DLL files
 __pycache__/
